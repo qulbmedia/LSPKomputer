@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Lsp Komputer</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="backgrey">
+
+  <ion-slides class="sliderdashboard" paginationType="bullets" pager="true" loop="true" autoplay="4000">
+    <ion-slide>
+      <img src="https://images.businessoffashion.com/site/uploads/2018/02/shutterstock_111362132.jpg?auto=format%2Ccompress&crop=top&fit=crop&h=573&w=1024">
+    </ion-slide>
+    <ion-slide>
+      <img src="https://www.riotgames.com/darkroom/1440/ad9561c7b2c8b39461ffed0ade875661:cfc7cfeec149d1d468522ce696c35afd/tokyo-1.jpg">
+    </ion-slide>
+    <ion-slide>
+      <img src="https://www.journeyera.com/wp-content/uploads/2017/09/pianemo-island-raja-ampat-06294.jpg">
+    </ion-slide>
+  </ion-slides>
+
+  <section padding>
+
+  <ion-grid class="dashboardcol0">
+    <ion-row>
+      <ion-col>
+        <div class="cards carddashoboard carddashboardorange">
+          <ion-icon name="people" role="img" class="icon icon-md ion-md-people new-icon-dashboard"></ion-icon>
+          <h3>9190</h3>
+          <p>Pemegang Sertifikat</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="cards carddashoboard carddashboardorange" (click)="openAsesorPage()">
+          <ion-icon name="star" role="img" class="icon icon-md ion-md-star new-icon-dashboard"></ion-icon>
+          <h3>43</h3>
+          <p>Asesor Komptensi</p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="cards carddashoboard carddashboardorange">
+          <ion-icon name="home" role="img" class="icon icon-md ion-md-home new-icon-dashboard"></ion-icon>
+          <h3>184</h3>
+          <p>Tempat Uji Kompetensi</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="cards carddashoboard carddashboardorange" (click)="openSkemaPage()">
+          <ion-icon name="folder" role="img" class="icon icon-md ion-md-folder new-icon-dashboard"></ion-icon>
+          <h3>14</h3>
+          <p>Skema Sertifikasi</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="dashboardtitle">
+    <h2>Tempat Uji Kompetensi</h2>
+    <p>Berikut ini daftar TUK yang terverifikasi oleh LSP Komputer</p>
+  </div>
+
+  <div>
+    <ion-scroll scrollX="true" class="new-scroll">
+      <img src="assets/imgs/amik_bogor.png" class="height80">
+      <img src="assets/imgs/itech.png" class="height80">
+      <img src="assets/imgs/jambi.png" class="height80">
+      <img src="assets/imgs/logo_pasterur.png" class="height80">
+      <img src="assets/imgs/logo_riau.png" class="height80">
+      <img src="assets/imgs/logo_saintech.png" class="height80">
+      <img src="assets/imgs/logo-lsp.png" class="height80">
+      <img src="assets/imgs/stekomindo.png" class="height80">
+    </ion-scroll>
+  </div>
+
+  <div class="height40"></div>
+
+  </section>
+</ion-content>

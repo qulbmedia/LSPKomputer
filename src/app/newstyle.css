@@ -1,0 +1,96 @@
+/*New CSS*/
+.backgrey {
+	background-color: #f9f9f9;
+}
+.toolbar-background-md {
+    border-color: transparent;
+    background: #f99c23;
+}
+.toolbar-title-md {
+	color: #fff;
+}
+.bar-button-default-md {
+	color: #fff;
+}
+
+/*Dashboard*/
+.sliderdashboard {
+	height: 150px;
+}
+.carddashboardorange {
+    background-color: #f99c23;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.dashboardcol0 {
+    padding: 0px;
+    color: #fff;
+}
+.new-icon-dashboard {
+    font-size: 50px !important;
+    margin-bottom: 0px !important;
+}
+.carddashboardorange h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+.carddashboardorange p {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dashboardtitle {
+    margin-top: 20px;
+}
+.dashboardtitle h2 {
+    margin-bottom: 0px !important;
+    font-size: 20px;
+}
+.dashboardtitle p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.new-scroll {
+    height: 100px;
+    white-space: nowrap;
+}
+img.height80 {
+    height: 80px;
+}
+/*End Dashboard*/
+
+/*Sidemenu*/
+.newsidemenu {
+    padding: 10px;
+}
+.newsidemenu h2 {
+    font-size: 14px;
+    color: #fff;
+}
+.newsidemenu p {
+    font-size: 12px;
+    color: #fff;
+}
+img.with40 {
+    width: 25%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: -10px;
+}
+/*End Sidemenu*/
+
+/*Pendaftaran*/
+.card-header {
+    background: #f99c23;
+    color: #fff;
+}
+.card-content {
+    padding-top: 10px !important;
+}
+/*End Pendaftaran*/
+
+/*End New*/

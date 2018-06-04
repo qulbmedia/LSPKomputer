@@ -1,0 +1,164 @@
+/*// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.*/
+
+/*New CSS*/
+.backgrey {
+	background-color: #f9f9f9;
+}
+.toolbar-background-md {
+    border-color: transparent;
+    background: #f99c23;
+}
+.toolbar-title-md {
+	color: #fff;
+}
+.bar-button-default-md {
+	color: #fff;
+}
+
+/*Dashboard*/
+.sliderdashboard {
+	height: 150px;
+}
+.carddashboardorange {
+    background-color: #f99c23;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.dashboardcol0 {
+    padding: 0px;
+    color: #fff;
+}
+.new-icon-dashboard {
+    font-size: 50px !important;
+    margin-bottom: 0px !important;
+}
+.carddashboardorange h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+.carddashboardorange p {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dashboardtitle {
+    margin-top: 20px;
+}
+.dashboardtitle h2 {
+    margin-bottom: 0px !important;
+    font-size: 20px;
+}
+.dashboardtitle p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.new-scroll {
+    height: 100px;
+    white-space: nowrap;
+}
+img.height80 {
+    height: 80px;
+}
+/*End Dashboard*/
+
+/*Sidemenu*/
+.newsidemenu {
+    padding: 10px;
+}
+.newsidemenu h2 {
+    font-size: 14px;
+    color: #fff;
+}
+.newsidemenu p {
+    font-size: 12px;
+    color: #fff;
+}
+img.with40 {
+    width: 25%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: -10px;
+}
+/*End Sidemenu*/
+
+/*Login*/
+.logologin {
+    margin: auto;
+    width: 250px;
+}
+.new-button {
+	background: #28b928 !important;
+	color: #fff !important;
+}
+.item-label-stacked .text-input-md, .item-label-floating .text-input-md {
+    margin-left: 0;
+    margin-top: 0px !important;
+    margin-bottom: 5px !important;
+    width: calc(100% - 8px);
+}
+.label-md {
+    margin: 8px 8px 0px 0 !important;
+}
+/*End Login*/
+
+/*Setting*/
+.accountsetting {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+/*End Setting*/
+
+/*Sertifikat*/
+.searchbar-input {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+input[type="search"] {
+    color: #fff !important;
+}
+
+.searchbar-search-icon {
+    color: #fff !important;
+}
+
+.searchbar-input::placeholder {
+    color: #fff !important;
+}
+/*End Sertifikat*/
+
+/*Asesor*/
+.list-header-md {
+    background: #f9f9f9;
+}
+/*End Asesor*/
+
+/*End New*/
+
+/*Pendaftaran*/
+    .backwhite {
+        background-color: #fff;
+        padding: 10px 0px;
+    }

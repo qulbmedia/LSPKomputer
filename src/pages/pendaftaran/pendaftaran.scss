@@ -1,0 +1,39 @@
+page-pendaftaran {
+
+	p {
+
+	}
+
+	.segment-md .segment-button.activated, .segment-md .segment-button.segment-activated {
+		border-color: #fff !important;
+	}
+
+	.segment-md .segment-button {
+    	color: #fff !important;
+    }
+
+    .backwhite {
+    	background-color: #fff;
+    	padding: 10px 0px;
+    }
+
+    .backwhite h2 {
+    	font-size: 18px !important;
+    	padding-left: 15px !important;
+    	padding-bottom: 0px !important;
+    	margin-bottom: 0px !important; 
+    }
+
+    .width100 {
+    	width: 100%;
+    }
+
+    .clearfix {
+    	height: 30px;
+    }
+
+    ion-select {
+    	max-width: 100%;
+	}
+
+}
